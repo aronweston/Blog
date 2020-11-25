@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/blog/style.css">
+</head>
+
+<body>
+    <header id="hero" class="green">
+        <div class="wrapper center">
+            <div class="text-wrapper">
+                <h1>Aron Weston</h1>
+                <h3>Front End Developer</h3>
+                <span><em>Sydney, Australia</em></span>
+            </div>
+            <a href="#add-post"><button class="primary">Add a post</button></a>
+        </div>
+    </header>
+    <!-- Post Section -->
+    <div class="wrapper">
+        <div class="post-grid">
+            <article class="post-card">
+                <img class="post-image"
+                    src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
+                    width="500px" alt="">
+                <div class="post-content">
+                    <h2>10 reasons why you should use VS Code.</h2>
+                    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art
+                        swag
+                        brunch,
+                        next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them
+                        polaroid
+                        hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.
+                    </p>
+                </div>
+            </article>
+        </div>
+        <section id="post-section">
+            <div class="form-container">
+                <h2>Have something to add?</h2>
+                <form id="add-post">
+                    <input class="full-width" id="title" type="text" placeholder="Title">
+                    <textarea class="full-width" id="content" placeholder="What is your blog post about?" rows="10"
+                        cols="50"></textarea>
+                    <input type="submit" id="submit" value="Add">
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="/config.js"></script>
+    <script src="/blog/app.js"></script>
+</body>
+
+</html>
